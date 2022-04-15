@@ -1,11 +1,12 @@
-﻿namespace TodoApi.Models
+﻿using System;
+
+namespace TodoDTO.Application.TodoItems.Queries.Common
 {
-    #region snippet
     public class TodoItemDTO
     {
-        public long Id { get; set; }
+
+        public Guid Id {  get; set; }
         public string Name { get; set; }
         public bool IsComplete { get; set; }
     }
-    #endregion
 }

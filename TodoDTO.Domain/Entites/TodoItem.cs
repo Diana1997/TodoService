@@ -1,12 +1,12 @@
-﻿namespace TodoApi.Models
+﻿using System;
+
+namespace TodoDTO.Domain.Entites
 {
-    #region snippet
-    public class TodoItem
+    public class TodoItem : AuditableEntity
     {
-        public long Id { get; set; }
+        public Guid Id { get; set; }
         public string Name { get; set; }
         public bool IsComplete { get; set; }
         public string Secret { get; set; }
     }
-    #endregion
 }

@@ -15,7 +15,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "TodoApiDTO": {
+    "TodoApiDTO.Api": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
